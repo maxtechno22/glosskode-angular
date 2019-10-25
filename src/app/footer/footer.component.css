@@ -1,0 +1,64 @@
+.footer-text > h2 {
+  color: #5b32b4;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.footer-social-icon > a > i {
+  background: #9b69e4;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  border-radius: 10px 10px 10px 0px;
+  margin-right: 10px;
+}
+
+.footer-social-icon > a > i:hover {
+  background: #fb397d;
+  color: #fff;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.social-icon {
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  margin-bottom: 15px;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+}
+
+.footer-menu ul li a {
+  border-right: 2px solid #726a84;
+  display: block;
+  padding: 0 7.5px;
+  color: #726a84;
+}
+
+.footer-social-icon > a .active {
+  background: #fb397d;
+}
+
+.footer-menu ul li:last-child a {
+  border-right: 0 solid #ddd;
+}
+
+.footer-social-icon {
+  margin-bottom: 30px;
+}
+
+.footer-menu {
+  margin-bottom: 15px;
+}
+
+.copyright-text > p {
+  margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+<section class="awesome-feature-area bg-white section_padding_0_50 clearfix">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="section-heading text-center">
+                  <h2>Awesome Features</h2>
+                  <div class="line-shape"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4" *ngFor="let feature of feature">
+              <div class="single-feature">
+                  <i class="ti-{{feature.icon}}" aria-hidden="true"></i>
+                  <h5>{{feature.title}}</h5>
+                  <p>{{feature.description}}</p>
+              </div>
+          </div>
+    </div>
+  </div>
+</section>

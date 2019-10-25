@@ -1,0 +1,41 @@
+<!-- ***** Wellcome Area Start ***** -->
+<section class="wellcome_area_theme clearfix">
+  <div class="container h-100">
+      <div class="row h-100 align-items-center">
+          <div class="col-12 col-md">
+              <div class="wellcome-heading-theme">
+                  <h2></h2>
+                  <h3>Services</h3>
+                  <p></p>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+</section>
+<section class="our-Team-area bg-white section_padding_100_50 clearfix">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class=" text-center">
+                <!-- Heading Text  -->
+                <div class="section-heading">
+                    <h2>{{servicepost.title}}</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" *ngIf="servicepost">
+          <div class="col-12 col-md-6 col-lg-10">
+            <app-service-post [servicepost]="servicepost"></app-service-post>
+          </div>
+          <div class="col-12 col-md-6 col-lg-10">
+            <p>{{servicepost.articles}}</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-10">
+            <a (click)="getBack()" class="button"><button>Back</button></a>
+          </div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,35 @@
+<section class="wellcome_area_theme clearfix">
+  <div class="container h-100">
+      <div class="row h-100 align-items-center">
+          <div class="col-12 col-md">
+              <div class="wellcome-heading-theme">
+                  <h2></h2>
+                  <h3>Services</h3>
+                  <p></p>
+              </div>
+
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+              <div class="section-heading">
+                  <h2>Our Services</h2>
+                  <div class="line-shape"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <div *ngFor="let servicepost of services.servicepost"  class="col-12 col-md-6 col-lg-6">
+          <app-service-post [servicepost]="servicepost"></app-service-post>
+        </div>
+      </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
+

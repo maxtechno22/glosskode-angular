@@ -1,0 +1,25 @@
+
+.single-feature {
+  margin-bottom: 50px;
+}
+
+.single-feature > p {
+  margin-bottom: 0;
+}
+
+.single-feature > i {
+  color: #fb397d;
+  font-size: 30px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.single-feature > h5 {
+  font-size: 22px;
+  color: #5b32b4;
+}
+
+.single-feature > p {
+  margin-top: 15px;
+}
