@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class TeamComponent implements OnInit {
 
-  team = {};
+  team: any;
 
   constructor(private config: ConfigService) { }
 

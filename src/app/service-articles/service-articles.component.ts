@@ -10,7 +10,7 @@ import { ConfigService } from '../config.service';
 })
 export class ServiceArticlesComponent implements OnInit {
 
-  servicepost = {};
+  servicepost: any;
 
   constructor(private route: ActivatedRoute, private config: ConfigService, private location: Location) { }
 
